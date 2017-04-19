@@ -1,4 +1,7 @@
-# test coverage for  [microtime (v2.1.3)](https://github.com/wadey/node-microtime)  [![npm package](https://img.shields.io/npm/v/npmtest-microtime.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-microtime) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-microtime.svg)](https://travis-ci.org/npmtest/node-npmtest-microtime)
+# npmtest-microtime
+
+#### test coverage for  [microtime (v2.1.3)](https://github.com/wadey/node-microtime)  [![npm package](https://img.shields.io/npm/v/npmtest-microtime.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-microtime) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-microtime.svg)](https://travis-ci.org/npmtest/node-npmtest-microtime)
+
 #### Get the current time in microseconds
 
 [![NPM](https://nodei.co/npm/microtime.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/microtime)
