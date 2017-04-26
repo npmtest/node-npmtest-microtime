@@ -1,6 +1,6 @@
 # npmtest-microtime
 
-#### test coverage for  [microtime (v2.1.3)](https://github.com/wadey/node-microtime)  [![npm package](https://img.shields.io/npm/v/npmtest-microtime.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-microtime) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-microtime.svg)](https://travis-ci.org/npmtest/node-npmtest-microtime)
+#### basic test coverage for  [microtime (v2.1.3)](https://github.com/wadey/node-microtime)  [![npm package](https://img.shields.io/npm/v/npmtest-microtime.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-microtime) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-microtime.svg)](https://travis-ci.org/npmtest/node-npmtest-microtime)
 
 #### Get the current time in microseconds
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-microtime/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-microtime/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-microtime/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-microtime/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-microtime/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-microtime/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-microtime/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-microtime/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-microtime/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-microtime/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-microtime/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-microtime/build/coverage.html/index.html)
 
@@ -81,7 +81,8 @@
         "lint": "standard && clang-format -output-replacements-xml src/microtime.cc | (! grep -q '<replacement ')",
         "test": "node test.js"
     },
-    "version": "2.1.3"
+    "version": "2.1.3",
+    "bin": {}
 }
 ```
 
